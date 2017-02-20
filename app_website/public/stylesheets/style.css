@@ -1,8 +1,249 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+html{
+    background-image:url("../images/background.jpg");
+    background-position: center;
+
+    background-size: cover;
+    width:100%;
+    height:300%;
+
+
+
+}
+body{
+    position:relative;
+    height:auto;
+    width:auto;
+
+}
+/*----------------------------Styles the nav bar on the home page-----------------*/
+#navBar{
+    float: right;
+    background-color:#000;
+    width:35%;
+    margin-right:10%;
+    height:6.5em;
+    margin-top:8%;
+    box-shadow: 7px 7px 5px #b9b9ba;
 }
 
-a {
-  color: #00B7FF;
+#navMen{
+
+    margin-left: 1%;
+    margin-top:1.5%;
+
 }
+
+#a1,#a2,#a3,#a4,#a5,#a6{
+    color:#FFFFFF;
+
+}
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6{
+    padding:1% 1% 1% 1.5%;
+
+    font-size:30pt;
+    display: inline;
+}
+#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#nav5:hover,#nav6:hover{
+    color:#da0d25;
+}
+#nav1{
+    margin-left:3%;
+}
+
+
+
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover{
+    color:#da0d25;
+}
+
+
+/*--------------------------Styles the logo-----------------*/
+#logo{
+    margin-top:2%;
+    padding: 0 0 auto auto;
+    height:300px;
+    width:350px;
+
+
+}
+
+/*-------------------------------Styles the h1 element------------------------*/
+h1{
+    font-size: 65px;
+    font-weight: bold;
+    color:#000;
+    text-shadow: 2px 2px #fff;
+    margin-left:30%;
+}
+
+#head2{
+    line-height: 150px;
+    font-size: 65px;
+    font-weight: bold;
+    color:#000;
+    text-shadow: 2px 2px #fff;
+    margin-left:30%;
+    margin-top:10px;
+    padding:0 0 auto auto;
+    width:50%;
+    height:10%;
+
+}
+/*-------------------------------Styles the h2 element----------------------*/
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    color:#000;
+    text-shadow: 2px 2px #fff;
+    margin-left:35%;
+    padding:0 0 auto auto;
+    width:50%;
+    height:10%;
+}
+
+/*-------------------Styles the image gallery elements-------------*/
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+/*-----------------Styles the h3 element and the button for the gallery------------------*/
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:#000000;
+    text-shadow: 2px 2px #fff;
+    margin-left:5%;
+    float:left;
+    width:auto;
+    height:10%;
+
+}
+
+#retBut {
+
+    font-size: large;
+    font-weight: bold;
+    background-color:#699744;
+    border-radius:6px;
+    width:70%;
+    height:50px;
+    text-align: center;
+    margin-left:8%;
+    margin-top:1%;
+    margin-bottom: 2%;
+    box-shadow: 0px 2px 6px #000;
+}
+#retBut:hover{
+    transform: skewX(20deg);
+    background-color:#00FF00;
+}
+#retBut a{
+    color:#FFFFFF;
+
+
+
+}
+legend{
+    padding: 10px 10px 10px 10px;
+    margin-left:33%;
+    margin-right:auto;
+    height:auto;
+    width:30%;
+    text-align: center;
+    border:4px solid #c12e2a;
+    box-shadow: 0 2px 6px #000;
+}
+
+#text{
+    line-height:25px;
+    font-size: 30px;
+    margin-left:15%;
+    width:75%;
+    height:60%;
+    box-shadow: 0 2px 6px #000;
+    border: 4px solid #00FF00;
+    padding: 2px 2px 2px 2px;
+}
+#text p{
+    font-weight: 900;
+    text-decoration: none;
+    color:#000;
+    box-shadow: 0 2px 6px #000;
+    height:auto;
+    padding: 2px 2px 2px 2px;
+
+}
+
+h6{
+    font-size: medium;
+    margin-left:65%;
+}
+h6 a{
+    color: #0000cc;
+}
+h6 a:hover{
+    color:#1b91ff;
+}
+/*-----------------------------------------This style the canvas*/
+#canvas{
+    width:auto;
+
+    margin-left:23%;
+    margin-right:auto;
+    box-shadow: 0 2px 6px #000;
+}
+
+/*----------------------Modernizr-------------*/
+
+.borderradius #content {
+    border: 1px solid #141414;
+    border-radius: 12px;
+}
+.boxshadow #content {
+    border: none;
+
+    box-shadow: rgba(0,0,0, .5) 3px 3px 6px;
+}
+ {
+    color: #FFFFFF;
+    margin: 0;
+    text-shadow: #000 5px 5px 5px;
+}
+
+.csscolumns ol.features {
+
+    columns: 2;
+}
+.no-csscolumns ol.features {
+    float: left;
+    margin: 0 0 20px;
+}
+.no-csscolumns ol.features li {
+    float: left;
+    width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

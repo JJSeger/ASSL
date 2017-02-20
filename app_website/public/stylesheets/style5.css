@@ -1,0 +1,192 @@
+
+html{
+    background-image:url("../img/background.jpg");
+    background-size: cover;
+
+    width:100%;
+    height:100%;
+}
+body{
+    position:relative;
+    height:auto;
+    width:auto;
+
+}
+
+/*----------------This styles the canvas tag--------------------*/
+
+#canvas{
+    width:auto;
+
+    margin-left:5%;
+    margin-right:auto;
+    box-shadow: 0 2px 6px #000;
+}
+
+/*----------------sizes inputs and text fields for form-----------*/
+#inp1,#inp2,#inp5,#inp12,#inp4{
+    width:21.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp9,#inp10,#inp8{
+    width:17.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+
+#inp12{
+    margin-right:2%;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp11{
+    width:25.125em;
+    box-shadow: 0 2px 6px #000;
+}
+#inp7{
+    width:9.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp3{
+    width:7.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp6{
+
+    width:5.125em;
+    box-shadow: 0 2px 6px #000;
+}
+#Ac1,#Ac2,#Ac3{
+    width:2.938em ;
+}
+/*---------adds color effect for more input fields----------*/
+#Ac1:hover,#Ac2:hover,#Ac3:hover{
+    background-color: #ebccd1;
+}
+/*----------------sizes the margin for the radio buttons-----------*/
+#inpRad1,#inpRad2{
+    margin-left:3.125em ;
+}
+/*----------------adds color effect to the input fields when hovered over-----------*/
+
+#inp1:hover ,#inp2:hover ,#inp3:hover ,#inp4:hover ,#inp5:hover ,#inp6:hover ,
+#inp7:hover ,#inp8:hover ,#inp9:hover ,#inp10:hover ,#inp11:hover ,#inp12:hover {
+
+    background-color: #ebccd1;
+}
+
+
+/*--------------adds color effect to input fields when clicked on--------------*/
+
+#inp1:focus,#inp2:focus,#inp3:focus,#inp4:focus,#inp5:focus,#inp6:focus,
+#inp7:focus,#inp8:focus,#inp9:focus,#inp10:focus,#inp11:focus,#inp12:focus {
+
+    background-color:#00FF00 ;
+}
+
+#Ac1:focus,#Ac2:focus,#Ac3:focus{
+    background-color:#00FF00;
+}
+/*-------------submit/donate buttons-------------*/
+#subBut {
+    color:#ffffff;
+    display: inline-block;
+    padding: 10px  20px;
+    background-color: #7a7a7a;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 45%;
+    box-shadow: 5px 5px 5px #5C3E1F;
+}
+#subBut:hover{
+    transform: skewX(20deg);
+    background-color:#f69a39;
+}
+
+
+/*------------ tweeks fieldset and legend for form--------------*/
+#fieldset1{
+    margin: 15%;
+    box-shadow: 5px 5px 5px #000;
+}
+
+legend{
+    box-shadow: 5px 5px 5px #000;
+    text-align: center;
+}
+h6 a{
+    color: #c12e2a;
+}
+
+h6 a{
+    float:right;
+    margin-right:10%;
+}
+
+h6 a:hover{
+    color:#00FF00;
+}
+/*--------------------------Styles the logo-----------------*/
+#logo{
+
+    padding: 0 0 auto auto;
+    height:300px;
+    width:350px;
+
+
+}
+
+
+/*----------------------------Styles the nav bar on the home page-----------------*/
+#navBar{
+    float: right;
+    background-color:#699744;
+    width:65%;
+    margin-right:10%;
+    height:3.5em;
+    margin-top:10%;
+    box-shadow: 7px 7px 5px #b9b9ba;
+}
+
+#navMen{
+
+    margin-left: 1%;
+    margin-top:1.5%;
+
+}
+
+#a1,#a2,#a3,#a4,#a5{
+    color:#00FF00;
+
+}
+#nav1,#nav2,#nav3,#nav4,#nav5{
+    padding:1% 1% 1% 1.5%;
+
+    font-size:30pt;
+    display: inline;
+}
+#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#nav5:hover{
+    color:#da0d25;
+}
+#nav1{
+    margin-left:1%;
+}
+
+
+
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover{
+    color:#da0d25;
+}
+
+
+
+
+
+
+
+
+

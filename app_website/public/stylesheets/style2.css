@@ -1,0 +1,39 @@
+/*----------------------------Styles the interactive map--------------------*/
+body {
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    background: #000;
+
+    color: white;
+}
+
+.vignette {
+
+    box-shadow: inset 0 0 88px rgba(0,0,0,1.0);
+}
+
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none; color: black;}
+a:hover {text-decoration: underline;  color: black;}
+
+
+
+      /*-------------------STYLES THE RETURN HOME BUTTON--------------*/
+#retBut {
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #dadada;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top:3%;
+    box-shadow: 3px 3px 5px #FFF;
+}
+#retBut:hover{
+    transform: skewX(20deg);
+    background-color:#00FF00;
+}

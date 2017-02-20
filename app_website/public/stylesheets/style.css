@@ -4,7 +4,7 @@ html{
     background-position: center;
 
     background-size: cover;
-    width:100%;
+    width:auto;
     height:300%;
 
 
@@ -20,7 +20,7 @@ body{
 #navBar{
     float: right;
     background-color:#000;
-    width:35%;
+    width:80%;
     margin-right:10%;
     height:6.5em;
     margin-top:8%;
@@ -58,7 +58,7 @@ body{
 }
 
 
-/*--------------------------Styles the logo-----------------*/
+/*--------------------------Styles the logo----------------
 #logo{
     margin-top:2%;
     padding: 0 0 auto auto;
@@ -66,7 +66,7 @@ body{
     width:350px;
 
 
-}
+}-*/
 
 /*-------------------------------Styles the h1 element------------------------*/
 h1{
@@ -83,10 +83,11 @@ h1{
     font-weight: bold;
     color:#000;
     text-shadow: 2px 2px #fff;
-    margin-left:30%;
-    margin-top:10px;
+    margin-left:25%;
+    margin-top:1%;
+    margin-bottom: 10%;
     padding:0 0 auto auto;
-    width:50%;
+    width:80%;
     height:10%;
 
 }
@@ -97,9 +98,11 @@ h2{
     font-weight: bold;
     color:#000;
     text-shadow: 2px 2px #fff;
-    margin-left:35%;
+    margin-left:30%;
+    margin-top: 3%;
+    margin-bottom:1%;
     padding:0 0 auto auto;
-    width:50%;
+    width:80%;
     height:10%;
 }
 
@@ -122,7 +125,7 @@ h3{
     margin-left:5%;
     float:left;
     width:auto;
-    height:10%;
+    height:auto;
 
 }
 
@@ -133,7 +136,7 @@ h3{
     background-color:#699744;
     border-radius:6px;
     width:70%;
-    height:50px;
+    height:25%;
     text-align: center;
     margin-left:8%;
     margin-top:1%;
@@ -164,12 +167,13 @@ legend{
 #text{
     line-height:25px;
     font-size: 30px;
-    margin-left:15%;
-    width:75%;
-    height:60%;
+    margin-left:auto;
+
+    width:100%;
+    height:auto;
     box-shadow: 0 2px 6px #000;
     border: 4px solid #00FF00;
-    padding: 2px 2px 2px 2px;
+    padding: 1.5% 1.5% 1.5% 1.5%;
 }
 #text p{
     font-weight: 900;
@@ -177,7 +181,7 @@ legend{
     color:#000;
     box-shadow: 0 2px 6px #000;
     height:auto;
-    padding: 2px 2px 2px 2px;
+    padding: 1.5% 1.5% 1.5% 1.5%;
 
 }
 

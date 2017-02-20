@@ -1,0 +1,112 @@
+doctype html.(class='“no-js”', lang='en')
+head
+    meta(charset='UTF-8')
+    |
+    title
+    |
+    link(rel='stylesheet', href='css/style5.css')
+|
+body
+    img#logo(src='img/logo.png')
+    |
+    fieldset#fieldset1
+        // opening fieldset tag
+        legend
+            b Class Sign Up
+        // legend put border around form
+        form.form1
+            // form opener
+            label Last Name:
+            // label for "Last Name"
+            input#inp1(type='text', name='Last Name', placeholder='Last Name', required='')
+            // input field or "Last Name"
+            label First Name:
+            // label for "First Name"
+            input#inp2(type='text', name='First Name', placeholder='First Name', required='')
+            // input field for "First Name"
+            label MI:
+            // label for "Middle Initial"
+            input#inp3(type='text', name='MI', placeholder='Middle Initial', required='')
+            br
+            // input field for "Middle Initial"
+            hr
+            |
+            label(type='address')  Present Street Address:
+            // label for present street adress
+            input#inp4(type='text', name='Address', placeholder='Address', required='')
+            // input field for address
+            label(type='city') City:
+            // label for city
+            input#inp5(type='text', name='City', placeholder='City', required='')
+            // input field for City
+            label(type='state') State:
+            // label for state
+            input#inp6(type='text', name='State', placeholder='State', required='')
+            // input field for state
+            label(type='zip') Zip Code:
+            // label for zipcode
+            input#inp7(type='text', name='Zip', placeholder='Zipcode', required='')
+            br
+            // input field for zip
+            hr
+            |
+            label(type='Home Phone') Home Phone:
+            // label for home phone
+            label
+                | (
+                input#Ac1(type='text', name='AreaCode', placeholder='', required='')
+                | )
+            // input field for area code
+            input#inp8(type='text', name='HomePhone', placeholder='Home Phone', required='')
+            // input field for home phone
+            label(type='Cell Phone') Cell Phone:
+            // label for Cell phone
+            label
+                | (
+                input#Ac2(type='text', name='AreaCode', placeholder='', required='')
+                | )
+            // input field for Cell phone
+            input#inp9(type='text', name='CellPhone', placeholder='Cell Phone', required='')
+            // input field for Cell phone
+            label(type='Work Phone') Work Phone:
+            // label for work phone
+            label
+                | (
+                input#Ac3(type='text', name='AreaCode', placeholder='', required='')
+                | )
+            // input field for area code
+            input#inp10(type='text', name='WorkPhone', placeholder='Work Phone', required='')
+            br
+            // input field for work phone
+            hr
+            |
+            label(type='email') Email:
+            // label for Email
+            input#inp11(type='email', name='email', required='')
+            // input field for Email
+            label(type='Studio Location') Studio Location:
+            // label for Dive Destination
+            input#inp12(type='text', name='Location', placeholder='Studio Location', required='')
+            // input field for Dive Destination
+            hr
+            |
+            label(type='age') Are you eighteen years of age or older?
+            |
+            input#inpRad1(type='radio', name='age', value='YES', checked='')
+            |  YES
+            // Radio button for age
+            input#inpRad2(type='radio', name='age', value='NO')
+            |  NO
+            // Radio button for age
+            br
+            i
+                | (Individuals younger than eighteen years of age must accompany an adult eighteen years of age or older.)
+            // label for Age
+            hr
+            |
+            input#subBut(type='submit', name='Submit', value='SUBMIT FORM')
+    br
+    // closing fieldset tag
+    script(src='js/jquery-1.11.3.min.js')
+    |
+    script(src='js/main.js')

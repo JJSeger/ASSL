@@ -1,0 +1,107 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    script(src='javascripts/modernizr.js')
+    // ------Links the scripts for the modernizer------------
+    meta(charset='UTF-8')
+    title Gallery
+    script(type='text/javascript', src='javascripts/jquery-1.11.3.min.js')
+    link(rel='stylesheet', href='javascripts/gallery/source/jquery.fancybox.css')
+    link(rel='stylesheet', href='javascripts/gallery/source/helpers/jquery.fancybox-thumbs.css', type='text/css', media='screen')
+    link(rel='stylesheet', href='javascripts/gallery/source/helpers/jquery.fancybox-buttons.css', type='text/css', media='screen')
+    link(rel='stylesheet', href='stylesheets/style3.css')
+    link(rel='stylesheet', href='stylesheets/animate.css')
+    script(type='text/javascript', src='javascripts/gallery/source/jquery.fancybox.js')
+    script(type='text/javascript', src='javascripts/gallery/source/helpers/jquery.fancybox-buttons.js')
+    script(type='text/javascript', src='javascripts/gallery/source/helpers/jquery.fancybox-media.js')
+    script(type='text/javascript', src='javascripts/gallery/source/helpers/jquery.fancybox-thumbs.js')
+    script(type='text/javascript', src='javascripts/gallery/source/jquery.fancybox.pack.js')
+    script(type='text/javascript', src='javascripts/main.js')
+    body
+    img
+        h2.animated.rubberBand Welcome to Anthracite Glassworks
+        p
+            a.fancybox(rel='group', href='images/BigPics/1.JPG')
+                img(src='images/SmallPics/1.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/2.JPG')
+                img(src='images/SmallPics/2.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/3.JPG')
+                img(src='images/SmallPics/3.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/4.JPG')
+                img(src='images/SmallPics/4.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/5.JPG')
+                img(src='images/SmallPics/5.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/6.JPG')
+                img(src='images/SmallPics/6.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/7.JPG')
+                img(src='images/SmallPics/7.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/8.JPG')
+                img(src='images/SmallPics/8.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/9.JPG')
+                img(src='images/SmallPics/9.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/10.JPG')
+                img(src='images/SmallPics/10.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/11.JPG')
+                img(src='images/SmallPics/11.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/12.JPG')
+                img(src='images/SmallPics/12.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/13.JPG')
+                img(src='images/SmallPics/13.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/14.JPG')
+                img(src='images/SmallPics/14.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/15.JPG')
+                img(src='images/SmallPics/15.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/16.JPG')
+                img(src='images/SmallPics/16.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/17.JPG')
+                img(src='images/SmallPics/17.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/18.JPG')
+                img(src='images/SmallPics/18.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/19.JPG')
+                img(src='images/SmallPics/19.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/20.JPG')
+                img(src='images/SmallPics/20.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/21.JPG')
+                img(src='images/SmallPics/21.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/22.JPG')
+                img(src='images/SmallPics/22.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/23.JPG')
+                img(src='images/SmallPics/23.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/24.JPG')
+                img(src='images/SmallPics/24.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/25.JPG')
+                img(src='images/SmallPics/25.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/26.JPG')
+                img(src='images/SmallPics/26.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/27.JPG')
+                img(src='images/SmallPics/27.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/28.JPG')
+                img(src='images/SmallPics/28.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/29.JPG')
+                img(src='images/SmallPics/29.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/30.JPG')
+                img(src='images/SmallPics/30.JPG', alt='')
+            a.fancybox(rel='group', href='images/BigPics/31.JPG')
+                img(src='images/SmallPics/31.JPG', alt='')
+        button#retBut1
+            a(href='/index') Click Here To Go Home
+        script.
+            $(document).ready(function () {
+                $('.fancybox').fancybox({
+                    padding: 0,
+                    openEffect: 'elastic'
+                });
+                $('.fancybox-buttons').fancybox({
+                    openEffect: 'none',
+                    closeEffect: 'none',
+                    prevEffect: 'none',
+                    nexteffect: 'none',
+                    closeBtn: true,
+                    helpers: {
+                        title: {
+                            type: 'inside',
+                        },
+                        buttons: {}
+                    }
+                });
+            });

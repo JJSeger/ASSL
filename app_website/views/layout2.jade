@@ -1,29 +1,112 @@
 doctype html
 html
     head
-title = "Anthracite Glassworks"
+    title Globe Map
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
+
     link(rel='stylesheet', href='stylesheets/animate.css')
     link(href='stylesheets/bootstrap.css', rel='stylesheet')
-    link(href='stylesheets/style.css', rel='stylesheet')
-    img#logo(src='images/logo.png')
+    link(href='stylesheets/style2.css', rel='stylesheet')
 
-    br
+
+
+
+
+    script(type='text/javascript', src='javascripts/globe/osg-debug.js')
+    script(type='text/javascript', src='javascripts/globe/globe.js')
+    script(type='text/javascript', src='javascripts/globe/world.js')
+    script(type='text/javascript', src='javascripts/globe/height.js')
+    script(type='text/javascript', src='javascripts/globe/country.js')
+    script(type='text/javascript', src='javascripts/globe/coast.js')
+    // ------Links the scripts for the modernizer------------
+    script(src='javascripts/modernizr.js')
+
     nav#navBar
         strong
             ul#navMen
                 li#nav1
-                    a#a1(href='index.jade')   Home
+                    a#a1(href='/')   Home
                 li#nav2
-                    a#a2(href='globe.jade')  Global Map
+                    a#a2(href='/globe')  Global Map
                 li#nav3
-                    a#a3(href='index3.html')   Artists
+                    a#a3(href='/artists')  Artists
+
                 li#nav4
-                    a#a4(href='index4.html')   Gallery
+                    a#a4(href='/gallery')  Gallery
                 li#nav5
-                    a#a5(href='index5.html')   Chat
+                    a#a5(href='/chat')   Chat
                 li#nav6
-                    a#a6(href='index6.html')  Feedback
-        body
+                    a#a6(href='/feedback')  Feedback
+
+    img#logo(src='images/logo.png')
+        
+
+    script(type='text/javascript').
+        window.addEventListener("load", function () {
+            var options = {
+                //globeBackColor: "#73514F55",
+                globeBackColor: "#ffb36b",
+                globeFrontColor: "#9AB4CBbb",
+                globeLinesColor: "#00000044",
+                //       width:1920,
+                //       height:996,
+                rotationIdleSpeedFactor: 10.0,
+                rotationSpeedFactor: 1.5,
+                wave: false
+            };
+            var globe = new Globe(document.getElementById("3DView"), options);
+            var img = new Image();
+            var items = [];
+            img.onload = function () {
+                // basic test usage
+                globe.addImage(48.8566667, 2.3509871, img);
+                globe.addImage(48.8566667, 2.3509871, img);
+                globe.addImage(48.8566667, 2.3509871, img);
+                globe.addImage(48.8566667, 2.3509871, img);
+                globe.addImage(48.8566667, 2.3509871, img);
+                globe.addImage(48.8566667, 2.3509871, img);
+                globe.addImage(48.8566667, 2.3509871, img);
+                // check it's in the tree
+                if (globe.items.children.length !== 7) {
+                    alert("Should be 7, and is " + globe.items.children.length);
+                }
+                globe.dispose();
+                if (globe.items.children.length !== 0) {
+                    alert("Should be 0, and is " + globe.items.children.length);
+                }
+                items.push(globe.addImage(48.8566667, 2.3509871, img));
+                // check it's in the tree
+                if (globe.items.children.length !== 1) {
+                    alert("Should be 1, and is " + globe.items.children.length);
+                }
+                items[0].dispose();
+                // check it's not in the tree
+                if (globe.items.children.length !== 0) {
+                    alert("Should be 0, and is " + globe.items.children.length);
+                }
+            };
+            img.src = "javascripts/star.png";
+            window.setInterval(function () {
+                globe.addImage(40.8645306, -76.5524554, img, {color: [1.0, 0.2, 1.0, 0.4]}, function () {
+                    osg.log("Hit itemID " + this.itemID);
+                });
+                globe.addImage(28.35470, -81.18542, img, {color: [1.0, 0.2, 1.0, 0.4]}, function () {
+                    osg.log("Hit itemID " + this.itemID);
+                });
+            }, 5000);
+        }, true);
+
+    body.vignette
+        #ViewContainer
+            canvas#3DView
+        canvas#HeightMap1(width='128', height='64', style='display: none;')
+        canvas#HeightMap2(width='128', height='64', style='display: none;')
+        script(type='text/javascript', src='js/main.js')
+        // -----------Links the main.js file---------------
+
+    li#nav6
+        a#a6(href='/feedback')  Feedback
+
+

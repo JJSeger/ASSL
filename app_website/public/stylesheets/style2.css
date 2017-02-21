@@ -1,0 +1,86 @@
+html{
+    height: auto;
+    width:auto;
+
+
+}
+
+/*----------------------------Styles the interactive map--------------------*/
+body {
+    height:75%;
+    width:75%;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    background: #000;
+    margin-bottom: 15%;
+    color: white;
+}
+
+.vignette {
+
+    box-shadow: inset 0 0 88px rgba(0,0,0,1.0);
+}
+
+a:link {text-decoration: none; color: black;}
+a:visited {text-decoration: none; color: black;}
+a:active {text-decoration: none; color: black;}
+a:hover {text-decoration: underline;  color: black;}
+
+
+
+
+/*----------------------------Styles the nav bar on the home page-----------------*/
+#navBar{
+    margin-bottom: -35%;
+    background-color:#FFFFFF;
+    width:95%;
+    margin-left:25%;
+    height:6.5em;
+    padding-top: .3%;
+    margin-top:6%;
+    box-shadow: 7px 7px 5px #b9b9ba;
+}
+
+#navMen{
+
+    margin-left: 1%;
+    margin-top:1.5%;
+
+}
+
+#a1,#a2,#a3,#a4,#a5,#a6{
+
+    color:#000000;
+
+}
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6{
+    padding:1% 1% 1% 1.5%;
+
+    font-size:30pt;
+    display: inline;
+}
+#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#nav5:hover,#nav6:hover{
+    color:#da0d25;
+}
+#nav1{
+    margin-left:3%;
+}
+
+
+
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover{
+    color:#da0d25;
+}
+
+
+/*--------------------------Styles the logo----------------*/
+#logo{
+    float: left;
+
+    height:25%;
+    width:20%;
+
+
+}
+

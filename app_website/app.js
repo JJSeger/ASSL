@@ -5,12 +5,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
-var index = require('./routes/index');
-var artists = require('./routes/artists');
-var globe = require('./routes/globe');
-var gallery= require('./routes/gallery');
-var chat = require('./routes/chat');
-var feedback = require('./routes/feedback');
+var index = require('./routes/index'); //index page route
+var artists = require('./routes/artists'); //artists page route
+var globe = require('./routes/globe'); //globe page route
+var gallery= require('./routes/gallery'); //gallery page route
+var chat = require('./routes/chat'); //chat page route
+var feedback = require('./routes/feedback'); //feedback page route
 
 var app = express();
 
@@ -27,7 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index); //home
-app.use('/artists', artists); //artists
+app.use('/artists', artists); //artists 
 app.use('/globe', globe); //globe
 app.use('/gallery', gallery); //artists
 app.use('/chat', chat); //chat

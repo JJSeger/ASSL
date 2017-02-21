@@ -6,7 +6,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 var index = require('./routes/index');
-var users = require('./routes/users');
+var artists = require('./routes/artists');
+var globe = require('./routes/globe');
+var gallery= require('./routes/gallery');
+var chat = require('./routes/chat');
+var feedback = require('./routes/feedback');
+
 var app = express();
 
 // view engine setup
@@ -22,7 +27,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index); //home
-app.use('/users', users); //users
+app.use('/artists', artists); //artists
+app.use('/globe', globe); //globe
+app.use('/gallery', gallery); //artists
+app.use('/chat', chat); //chat
+app.use('/feedback', feedback); //feedback
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

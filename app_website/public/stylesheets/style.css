@@ -1,7 +1,7 @@
 
 html{
-    margin-left: 5%;
-    width:90%;
+    margin-left:12%;
+    width:80%;
     height:200%;
 
 
@@ -21,8 +21,8 @@ body{
 #navBar{
     float: right;
     background-color:#000;
-    width:85%;
-    margin-right:10%;
+    width:95%;
+    margin-right:7%;
     height:6.5em;
     margin-top:5%;
     box-shadow: 7px 7px 5px #b9b9ba;
@@ -190,16 +190,6 @@ legend{
 
 }
 
-h6{
-    font-size: medium;
-    margin-left:65%;
-}
-h6 a{
-    color: #0000cc;
-}
-h6 a:hover{
-    color:#1b91ff;
-}
 /*-----------------------------------------This style the canvas*/
 #canvas{
     width:auto;
@@ -240,10 +230,28 @@ h6 a:hover{
 }
 
 
+footer{
+    margin-left: 0%;
+    text-align: center;
+    height:75%;
+    width:100%;
+    background-color: #b9b9ba;
+
+}
 
 
 
-
+h6{
+    padding-top: .5%;
+    font-size: medium;
+    margin-left:65%;
+}
+h6 a{
+    color: #0000cc;
+}
+h6 a:hover{
+    color:#1b91ff;
+}
 
 
 

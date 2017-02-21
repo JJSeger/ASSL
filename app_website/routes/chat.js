@@ -4,7 +4,7 @@ var router = express.Router();
 
 
 router.get('/', function(req, res, next) {
-  res.render('artists', { title: 'Artist Spotlight'});
+    res.render('chat', { title: 'Anthracite Chat'});
 
 });
 

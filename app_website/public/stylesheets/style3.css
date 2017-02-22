@@ -33,14 +33,14 @@ body {
 }
 h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     color:#00FF00;
     box-shadow: 0 2px 6px #000;
     text-shadow: 2px 2px #000;
 
     margin-left:17%;
-    margin-top:10px;
+    margin-top:2%;
 
     width:65%;
     height:auto;
@@ -70,4 +70,127 @@ h2{
 
 
 
+}
+
+/*----------------sizes inputs and text fields for form-----------*/
+#inp1,#inp2,#inp5,#inp12,#inp4{
+    width:21.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp9,#inp10,#inp8{
+    width:17.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+
+#inp12{
+    margin-right:2%;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp11{
+    width:25.125em;
+    box-shadow: 0 2px 6px #000;
+}
+#inp7{
+    width:9.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp3{
+    width:7.125em;
+    box-shadow: 0 2px 6px #000;
+}
+
+#inp6{
+
+    width:5.125em;
+    box-shadow: 0 2px 6px #000;
+}
+#Ac1,#Ac2,#Ac3{
+    width:2.938em ;
+}
+/*---------adds color effect for more input fields----------*/
+#Ac1:hover,#Ac2:hover,#Ac3:hover{
+    background-color: #ebccd1;
+}
+/*----------------sizes the margin for the radio buttons-----------*/
+#inpRad1,#inpRad2{
+    margin-left:3.125em ;
+}
+/*----------------adds color effect to the input fields when hovered over-----------*/
+
+#inp1:hover ,#inp2:hover ,#inp3:hover ,#inp4:hover ,#inp5:hover ,#inp6:hover ,
+#inp7:hover ,#inp8:hover ,#inp9:hover ,#inp10:hover ,#inp11:hover ,#inp12:hover {
+
+    background-color: #ebccd1;
+}
+
+
+/*--------------adds color effect to input fields when clicked on--------------*/
+
+#inp1:focus,#inp2:focus,#inp3:focus,#inp4:focus,#inp5:focus,#inp6:focus,
+#inp7:focus,#inp8:focus,#inp9:focus,#inp10:focus,#inp11:focus,#inp12:focus {
+
+    background-color:#00FF00 ;
+}
+
+#Ac1:focus,#Ac2:focus,#Ac3:focus{
+    background-color:#00FF00;
+}
+/*-------------submit buttons-------------*/
+#subBut {
+    color:#ffffff;
+    display: inline-block;
+    padding: 10px  20px;
+    background-color: #7a7a7a;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 40%;
+    box-shadow: 5px 5px 5px #5C3E1F;
+}
+#subBut:hover{
+    transform: skewX(20deg);
+    background-color:#f69a39;
+}
+
+
+/*------------ tweeks fieldset and legend for form--------------*/
+#fieldset1{
+    margin: 15%;
+    box-shadow: .5em .5em .5em #000;
+}
+
+legend{
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 8px 8px 8px #000;
+
+}
+h6 a{
+    color: #c12e2a;
+}
+
+h6 a{
+    float:right;
+    margin-right:10%;
+}
+
+h6 a:hover{
+    color:#00FF00;
+}
+/*--------------------------Styles the logo----------------*/
+#logo{
+    margin-left: 35% ;
+    margin-top:1%;
+    padding: 0 0 auto auto;
+    height:25%;
+    width:30%;
+
+
+}
+p{
+    margin-left: 10%;
 }

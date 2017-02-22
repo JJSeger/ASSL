@@ -3,23 +3,34 @@ head
     meta(charset='UTF-8')
     script(src='javascripts/modernizr.js')
     // ------Links the scripts for the modernizer------------
-    meta(charset='UTF-8')
+
     title Gallery
     script(type='text/javascript', src='javascripts/jquery-1.11.3.min.js')
-    link(rel='stylesheet', href='javascripts/gallery/source/jquery.fancybox.css')
-    link(rel='stylesheet', href='javascripts/gallery/source/helpers/jquery.fancybox-thumbs.css', type='text/css', media='screen')
-    link(rel='stylesheet', href='javascripts/gallery/source/helpers/jquery.fancybox-buttons.css', type='text/css', media='screen')
-    link(rel='stylesheet', href='stylesheets/style3.css')
-    link(rel='stylesheet', href='stylesheets/animate.css')
+    script(type='text/javascript', src='javascripts/main.js')
     script(type='text/javascript', src='javascripts/gallery/source/jquery.fancybox.js')
     script(type='text/javascript', src='javascripts/gallery/source/helpers/jquery.fancybox-buttons.js')
     script(type='text/javascript', src='javascripts/gallery/source/helpers/jquery.fancybox-media.js')
     script(type='text/javascript', src='javascripts/gallery/source/helpers/jquery.fancybox-thumbs.js')
     script(type='text/javascript', src='javascripts/gallery/source/jquery.fancybox.pack.js')
-    script(type='text/javascript', src='javascripts/main.js')
+
+
+
+    link(rel='stylesheet', href='javascripts/gallery/source/jquery.fancybox.css')
+    link(rel='stylesheet', href='javascripts/gallery/source/helpers/jquery.fancybox-thumbs.css', type='text/css', media='screen')
+    link(rel='stylesheet', href='javascripts/gallery/source/helpers/jquery.fancybox-buttons.css', type='text/css', media='screen')
+    link(rel='stylesheet', href='stylesheets/style3.css')
+    link(rel='stylesheet', href='stylesheets/animate.css')
+
+    img#logo(src='images/logo.png')
+    br
+
     body
-    img
-        h2.animated.rubberBand Welcome to Anthracite Glassworks
+
+
+        h2.animated.rubberBand Welcome to Anthracite Glassworks Please Click On Our Projects To See In Detail
+
+        br
+
         p
             a.fancybox(rel='group', href='images/BigPics/1.JPG')
                 img(src='images/SmallPics/1.JPG', alt='')
@@ -40,7 +51,7 @@ head
             a.fancybox(rel='group', href='images/BigPics/9.JPG')
                 img(src='images/SmallPics/9.JPG', alt='')
             a.fancybox(rel='group', href='images/BigPics/10.JPG')
-                img(src='images/SmallPics/10.JPG', alt='')
+            img(src='images/SmallPics/10.JPG', alt='')
             a.fancybox(rel='group', href='images/BigPics/11.JPG')
                 img(src='images/SmallPics/11.JPG', alt='')
             a.fancybox(rel='group', href='images/BigPics/12.JPG')
@@ -83,6 +94,8 @@ head
                 img(src='images/SmallPics/30.JPG', alt='')
             a.fancybox(rel='group', href='images/BigPics/31.JPG')
                 img(src='images/SmallPics/31.JPG', alt='')
+
+
         button#retBut1
             a(href='/index') Click Here To Go Home
         script.
@@ -105,3 +118,77 @@ head
                     }
                 });
             });
+
+
+        fieldset#fieldset1
+            // opening fieldset tag
+            legend Contact Us / Sign Up For Classes
+            b
+            // legend put border around form
+            form.form1
+            // form opener
+            label Last Name:
+                input#inp1(type = 'text', name = 'Last Name', placeholder = 'Last Name', required = '')
+
+            label First Name:
+                input#inp2(type = 'text', name = 'First Name', placeholder = 'First Name', required = '')
+
+            label MI:
+                input#inp3(type = 'text', name = 'MI', placeholder = 'Middle Initial', required = '')
+            br
+
+            hr
+            label(type = 'address')  Present Street Address:
+
+                    input#inp4(type = 'text', name = 'Address', placeholder = 'Address', required = '')
+
+            label(type = 'city') City:
+
+                    input#inp5(type = 'text', name = 'City', placeholder = 'City', required = '')
+
+            label(type = 'state') State:
+                input#inp6(type = 'text', name = 'State', placeholder = 'State', required = '')
+            // input field for state
+            label(type = 'zip') Zip Code:
+
+            input#inp7(type = 'text', name = 'Zip', placeholder = 'Zipcode', required = '')
+            br
+
+            hr
+            label(type = 'Home Phone') Home Phone:
+
+            input#inp8(type = 'text', name = 'HomePhone', placeholder = 'Home Phone', required = '')
+            // input field for home phone
+            label(type = 'Cell Phone') Cell Phone:
+
+            input#inp9(type = 'text', name = 'CellPhone', placeholder = 'Cell Phone', required = '')
+            // input field for Cell phone
+            label(type = 'Work Phone') Work Phone:
+
+            input#inp10(type = 'text', name = 'WorkPhone', placeholder = 'Work Phone', required = '')
+            br
+            // input field for work phone
+            hr
+            label(type = 'email') Email:
+                input#inp11(type='email', name='email',, placeholder='Email' required='')
+
+
+            label(type = 'Studio Location') Studio Location:
+                input#inp12(type='text', name='Location', placeholder='Studio Location', required='')
+
+                hr
+            label(type = 'age') Are you eighteen years of age or older ?
+                    input#inpRad1(type = 'radio', name = 'age', value = 'YES', checked = '')
+            | YES
+            // Radio button for age
+            input#inpRad2(type = 'radio', name = 'age', value = 'NO')
+            | NO
+            // Radio button for age
+            br
+            i
+            | (Individuals younger than eighteen years of age must accompany an adult eighteen years of age or older.)
+            // label for Age
+            hr
+            input#subBut(type = 'submit', name = 'Submit', value = 'SUBMIT FORM')
+            br
+            // closing fieldset tag

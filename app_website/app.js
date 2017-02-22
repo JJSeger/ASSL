@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', index); //home
 app.use('/artists', artists); //artists 
 app.use('/globe', globe); //globe
-app.use('/gallery', gallery); //artists
+app.use('/gallery', gallery); //gallery
 app.use('/chat', chat); //chat
 app.use('/feedback', feedback); //feedback
 

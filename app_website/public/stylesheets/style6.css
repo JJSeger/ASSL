@@ -65,7 +65,7 @@ body {
 #nav1,#nav2,#nav3,#nav4,#nav5,#nav6{
     padding:1% 1% 1% 1.5%;
 
-    font-size:30pt;
+    font-size:40pt;
     display: inline;
 }
 #nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#nav5:hover,#nav6:hover{
@@ -90,8 +90,7 @@ ul {
     width:30%;
     margin-left: 10%;
     margin-bottom: 10%;
-    margin-top:2%;
-    float:left;
+    margin-top:15%;
 
 
 }
@@ -101,7 +100,7 @@ ul {
     width:30%;
     margin-right:10%;
     margin-bottom: 10%;
-    margin-top:5%;
+    margin-top:20%;
     float:right;
 
 
@@ -117,9 +116,9 @@ h4{
     margin-left: 10%;
     width:80%;
     border-style: double;
-    font-size: large;
+    font-size: 2.5em;
 
-    box-shadow: 8px 8px 8px #000;
+    box-shadow: 8px 8px 8px #5BC8C8;
     padding:1% 1% 1% 1%;
 
 
@@ -129,12 +128,22 @@ h4{
     text-align: center;
     margin-left: 10%;
     width:80%;
-    margin-bottom:10%;
+    margin-bottom:5%;
     border-style: double;
-    font-size: large;
+    font-size: 2.0em;
     margin-top:5%;
-    box-shadow: 8px 8px 8px #000;
+    box-shadow: 8px 8px 8px #5BC8C8;
     padding:1% 1% 1% 1%;
 
 
+}
+#img1,#img2,#img3,#img4,#img5,#img6{
+    width:20%;
+    height:35%;
+    padding: 1% 1% 1% 1%;
+}
+#img7,#img8,#img9,#img10,#img11{
+    width:20%;
+    height:35%;
+    padding: 1% 1% 1% 1%;
 }

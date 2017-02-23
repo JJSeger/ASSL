@@ -60,7 +60,7 @@ button:hover{
 }
 legend{
     text-align: center;
-    margin-left: 30%;
+    margin-left: 34%;
     border-style: double;
     font-size: x-large;
 
@@ -93,7 +93,7 @@ input{
     width:30%;
     height:50px;
     text-align: center;
-    margin-left:36%;
+    margin-left:35%;
     margin-top:3%;
     box-shadow: 0px 2px 6px #000;
 }

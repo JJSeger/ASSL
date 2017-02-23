@@ -1,0 +1,40 @@
+doctype html
+head
+    link(rel='stylesheet', href='stylesheets/style4.css')
+    img#logo(src='images/logo.png')
+    br
+
+    body
+
+            legend  Welcome To Anthracite Glassworks Chat
+                u
+                    br
+                    .container
+                        .row
+                            .col-sm-12
+                                article.chat
+                                    header.chat-header
+                                        .h3.chat-title
+
+
+                                    form.form-horizontal.chat-form(name='chatForm')
+                                        .form-group
+                                            label.col-sm-2.control-label(for='chat-username') Name:
+                                            .col-sm-10
+                                                input#chat-username.form-control(type='text', required='', placeholder='Enter your name')
+
+                                        .form-group
+                                            label.col-sm-2.control-label(for='chat-message') Message:
+                                            .col-sm-10
+                                                .input-group
+                                                    input#chat-message.form-control(type='text', placeholder='Enter a message, then press the button', rows='2', autocomplete='off', required='')
+                                                    br
+                                                    span.input-group-btn
+                                                        button#chat-submit.btn.btn-info(type='submit') Chat
+
+                                    .panel.panel-default
+                                        .panel-body.chat-display
+                                            p.text-muted.chat-text Please add your message using the form above
+
+        button#retBut1
+            a(href='/index') Click Here To Go Home

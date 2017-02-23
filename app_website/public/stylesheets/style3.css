@@ -164,6 +164,7 @@ h2{
 }
 
 legend{
+    margin-left: 25%;
     font-size: x-large;
     text-align: center;
     box-shadow: 8px 8px 8px #000;

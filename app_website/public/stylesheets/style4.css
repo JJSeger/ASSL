@@ -1,0 +1,111 @@
+html{
+    background-image:url("../images/background.jpg");
+    background-size: cover;
+    overflow: auto;
+    width:100%;
+    height:100%;
+}
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color:#00FF00;
+    box-shadow: 0 2px 6px #000;
+    text-shadow: 2px 2px #000;
+
+    margin-left:17%;
+    margin-top:2%;
+
+    width:65%;
+    height:auto;
+
+}
+
+
+/*-------------chat buttons-------------*/
+button {
+    color:#ffffff;
+    font-size: large;
+    display: inline-block;
+    padding: 10px  20px;
+    background-color: #0000cc;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 5px 5px 5px #5C3E1F;
+}
+button:hover{
+    transform: skewX(20deg);
+    background-color:#f69a39;
+}
+
+
+/*------------ tweeks fieldset and legend for form--------------*/
+#fieldset1{
+    margin: 15%;
+    box-shadow: .5em .5em .5em #000;
+}
+/*------------ tweeks fieldset and legend for form--------------*/
+#fieldset1{
+    margin: 15%;
+    box-shadow: .5em .5em .5em #000;
+}
+legend{
+    margin-left: 30%;
+    border: solid;
+    font-size: x-large;
+    text-align: center;
+    box-shadow: 8px 8px 8px #000;
+    padding:1% 1% 1% 1%;
+
+}
+/*-------------------------Styles the logo----------------*/
+#logo{
+    margin-left: 35% ;
+    margin-top:1%;
+    padding: 0 0 auto auto;
+    height:25%;
+    width:30%;
+
+
+}
+input{
+    width:75%;
+    font-size: large;
+
+
+}
+#retBut1 {
+
+    font-size: large;
+    font-weight: bold;
+    background-color:#699744;
+    border-radius:6px;
+    width:30%;
+    height:50px;
+    text-align: center;
+    margin-left:36%;
+    margin-top:3%;
+    box-shadow: 0px 2px 6px #000;
+}
+#retBut1:hover{
+    transform: skewX(20deg);
+    background-color:#00FF00;
+}
+#retBut1 a{
+    color:#FFFFFF;
+
+
+
+}
+p{
+    padding:1% 1% 1% 1%;
+}

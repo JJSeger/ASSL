@@ -83,3 +83,58 @@ body {
 ul {
    padding-top: 2%;
 }
+
+#image1{float:left;
+    clear:right;
+    height:8%;
+    width:30%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top:2%;
+    float:left;
+
+
+}
+
+#image2{
+    height:70%;
+    width:30%;
+    margin-right:10%;
+    margin-bottom: 10%;
+    margin-top:5%;
+    float:right;
+
+
+}
+h4{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#legend1{
+    float:left;
+    text-align: center;
+    margin-left: 10%;
+    width:80%;
+    border-style: double;
+    font-size: large;
+
+    box-shadow: 8px 8px 8px #000;
+    padding:1% 1% 1% 1%;
+
+
+}
+#legend2{
+    float:left;
+    text-align: center;
+    margin-left: 10%;
+    width:80%;
+    margin-bottom:10%;
+    border-style: double;
+    font-size: large;
+    margin-top:5%;
+    box-shadow: 8px 8px 8px #000;
+    padding:1% 1% 1% 1%;
+
+
+}

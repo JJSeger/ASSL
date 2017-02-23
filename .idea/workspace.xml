@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023ebfcc-52d5-4575-80c8-18eca1d391d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_website/views/layout6.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style6.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/views/artists.jade" afterPath="$PROJECT_DIR$/app_website/views/artists.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/views/layout5.jade" afterPath="$PROJECT_DIR$/app_website/views/layout5.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/public/stylesheets/style3.css" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style3.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/public/stylesheets/style5.css" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ASSL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,8 +70,8 @@
       <file leaf-file-name="style3.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_website/public/stylesheets/style3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6924829">
-              <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.8633257">
+              <caret line="156" column="1" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -775,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_website/public/stylesheets/style3.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6924829">
-          <caret line="146" column="29" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.8633257">
+          <caret line="156" column="1" selection-start-line="156" selection-start-column="1" selection-end-line="156" selection-end-column="1" />
           <folding />
         </state>
       </provider>

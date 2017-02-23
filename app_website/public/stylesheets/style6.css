@@ -1,0 +1,85 @@
+
+blockquote{
+    background-color:#f7f7f7;
+    /*changing text on the blockquote with external link*/
+    font-family: 'Rock Salt', cursive , Times;
+    font-weight: bold;
+    font-size:.95em;
+    text-align: center;
+    width:45%;
+    height:30.5%;
+    padding:1%;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 8px 8px 8px #5BC8C8;
+
+
+}
+
+html{
+    background-image:url("../images/background.jpg");
+    background-size: cover;
+    overflow: auto;
+    width:100%;
+    height:100%;
+}
+body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+/*-------------------------Styles the logo----------------*/
+#logo{
+    margin-left: 35% ;
+    margin-top:1%;
+    padding: 0 0 auto auto;
+    height:25%;
+    width:30%;
+
+
+}
+
+
+/*----------------------------Styles the nav bar on the home page-----------------*/
+#navBar{
+
+    background-color:#000;
+    width:82%;
+    margin-left:9%;
+    height:5.5em;
+    margin-top:6%;
+    box-shadow: 7px 7px 5px #5BC8C8;
+}
+
+#navMen{
+
+    margin-left: 1%;
+    margin-top:1.5%;
+
+}
+
+#a1,#a2,#a3,#a4,#a5,#a6{
+    color:#FFFFFF;
+
+}
+#nav1,#nav2,#nav3,#nav4,#nav5,#nav6{
+    padding:1% 1% 1% 1.5%;
+
+    font-size:30pt;
+    display: inline;
+}
+#nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#nav5:hover,#nav6:hover{
+    color:#da0d25;
+}
+#nav1{
+    margin-left:3%;
+}
+
+
+
+#a1:hover,#a2:hover,#a3:hover,#a4:hover,#a5:hover,#a6:hover{
+    color:#da0d25;
+}
+ul {
+   padding-top: 2%;
+}

@@ -8,28 +8,61 @@ head
 
 
 
+        nav#navBar
+            strong
+                ul#navMen
+                    li#nav1
+                        a#a1(href='/')   Home
+                    li#nav2
+                        a#a2(href='/globe')  Global Map
+                    li#nav3
+                        a#a3(href='/artists')  Artists
+
+                    li#nav4
+                        a#a4(href='/gallery')  Gallery
+                    li#nav5
+                        a#a5(href='/chat')   Chat
+                    li#nav6
+                        a#a6(href='/feedback')  Feedback
 
 
-        .container
-            .row
-                .col-sm-4
-                    h1.feedback-form-title Send us feedback
-                    form.feedback-form
-                        .form-group
-                            label(for='feedback-form-name') Name
-                            input#feedback-form-name.form-control(type='text', placeholder='Enter your name')
-                        .form-group
-                            label(for='feedback-form-title') Title
-                            input#feedback-form-title.form-control(type='text', placeholder='Title of your feedback')
-                        .form-group
-                            label(for='feedback-form-message') Message
-                            textarea#feedback-form-message.form-control(type='text', placeholder='Enter your message, then hit the submit', rows='6')
-                        button.btn.btn-default.pull-right(type='submit') Submit
-                // primary
-                aside.col-sm-8
-                    .maincontent.feedback
-                        h2.article-title Recent Feedback
-                        .feedback-messages
+    legend
+        strong Complete the form below to send an email:
+
+        #modal_wrapper
+            #modal_window
+                div(style='text-align: right;')
+
+                p
+                form#modal_feedback(action="mailto:jjsbowhunter@yahoo.com" method="POST", accept-charset='UTF-8')
+                    p
+                        label
+                            | Your Name
+                            strong *
+                            br
+                            input(type='text', autofocus='', required='', size='48', name='name', value='')
+                    p
+                        label
+                            | Email Address
+                            strong *
+                            br
+                            input(type='email', required='', title='Please enter a valid email address', size='48', name='email', value='')
+                    p
+                        label
+                            | Subject
+                            br
+                            input(type='text', size='48', name='subject', value='')
+                    p
+                        label
+                            | Enquiry
+                            strong *
+                            br
+                            textarea(required='', name='message', cols='48', rows='8')
+                    p
+                        input#subBut(type = 'submit', name = 'Submit', value = 'SUBMIT FORM')
+
+
+
 
 
 

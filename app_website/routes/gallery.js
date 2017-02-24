@@ -10,22 +10,49 @@ router.get('/', function(req, res, next) {
 
 
 /* POST to Add User Service */
-router.post('/adduser', function(req, res) {
+router.post('/', function(req, res) {
 
     // Set our internal DB variable
     var db = req.db;
 
     // Get our form values. These rely on the "name" attributes
-    var userName = req.body.username;
-    var userEmail = req.body.useremail;
+    var lastName = req.body.lastName;
+    var firstName = req.body.firstName;
+    var MI = req.body.MI;
+    var address = req.body.address;
+    var city = req.body.city;
+    var state = req.body.state;
+    var zip = req.body.zip;
+    var homePhone = req.body.homePhone;
+    var cellPhone = req.body.cellPhone;
+    var workPhone = req.body.workPhone;
+    var email = req.body.email;
+    var location= req.body.location;
+    var age = req.body.age;
+    var submit = req.body.submit;
+
+
 
     // Set our collection
     var collection = db.get('usercollection');
 
     // Submit to the DB
     collection.insert({
-        "username" : userName,
-        "email" : userEmail
+
+        "lastName" : lastName,
+        "firstName" : firstName,
+        "MI" : MI,
+        "address": address,
+        "city" : city,
+        "state" : state,
+        "zip" : zip,
+        "homePhone" : homePhone,
+        "cellPhone" : cellPhone,
+        "workPhone" : workPhone,
+        "email" : email,
+        "location" : location,
+        "age" : age
+
     }, function (err, doc) {
         if (err) {
             // If it failed, return error
@@ -33,7 +60,7 @@ router.post('/adduser', function(req, res) {
         }
         else {
             // And forward to success page
-            res.redirect("userlist");
+            res.redirect("gallery");
         }
     });
 });

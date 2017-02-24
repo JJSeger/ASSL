@@ -65,7 +65,7 @@ body {
 #nav1,#nav2,#nav3,#nav4,#nav5,#nav6{
     padding:1% 1% 1% 1.5%;
 
-    font-size:40pt;
+    font-size:30pt;
     display: inline;
 }
 #nav1:hover,#nav2:hover,#nav3:hover,#nav4:hover,#nav5:hover,#nav6:hover{
@@ -116,7 +116,7 @@ h4{
     margin-left: 10%;
     width:80%;
     border-style: double;
-    font-size: 2.5em;
+    font-size: 2.0em;
 
     box-shadow: 8px 8px 8px #5BC8C8;
     padding:1% 1% 1% 1%;

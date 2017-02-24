@@ -14,12 +14,21 @@ var feedback = require('./routes/feedback'); //feedback page route
 
 var app = express();
 
+var mongo = require('mongodb').MongoClient,
+    client = require('socket.io').listen(8080).sockets;
+
+
+
+
+
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade'); //html engine
 
 // uncomment after placing your favicon in /public
-//app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+
 app.use(logger('dev'));
 app.use(bodyParser.json()); //this parses the html
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -54,3 +63,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+

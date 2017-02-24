@@ -14,8 +14,7 @@ var feedback = require('./routes/feedback'); //feedback page route
 
 var app = express();
 
-var mongo = require('mongodb').MongoClient,
-    client = require('socket.io').listen(8080).sockets;
+
 
 
 

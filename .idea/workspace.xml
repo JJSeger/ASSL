@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="023ebfcc-52d5-4575-80c8-18eca1d391d3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app_website/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/app.js" afterPath="$PROJECT_DIR$/app_website/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/routes/chat.js" afterPath="$PROJECT_DIR$/app_website/routes/chat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/views/layout5.jade" afterPath="$PROJECT_DIR$/app_website/views/layout5.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/package.json" afterPath="$PROJECT_DIR$/app_website/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/public/stylesheets/style4.css" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style4.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/public/stylesheets/style5.css" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/public/stylesheets/style6.css" afterPath="$PROJECT_DIR$/app_website/public/stylesheets/style6.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app_website/views/layout4.jade" afterPath="$PROJECT_DIR$/app_website/views/layout4.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ASSL.iws" />
@@ -30,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_website/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12096774">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +59,18 @@
       <file leaf-file-name="layout4.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_website/views/layout4.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.5">
-              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+            <state vertical-scroll-proportion="-23.076923">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style4.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_website/public/stylesheets/style4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46044865">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -109,7 +115,6 @@
         <option value="$PROJECT_DIR$/app_website/views/gallery.jade" />
         <option value="$PROJECT_DIR$/app_website/views/layout.jade" />
         <option value="$PROJECT_DIR$/app_website/views/chat.jade" />
-        <option value="$PROJECT_DIR$/app_website/views/layout4.jade" />
         <option value="$PROJECT_DIR$/app_website/public/javascripts/feedback.js" />
         <option value="$PROJECT_DIR$/app_website/npm-debug.log" />
         <option value="$PROJECT_DIR$/app_website/views/feedback.jade" />
@@ -120,7 +125,6 @@
         <option value="$PROJECT_DIR$/app_website/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app_website/views/layout6.jade" />
         <option value="$PROJECT_DIR$/app_website/public/stylesheets/style3.css" />
-        <option value="$PROJECT_DIR$/app_website/public/stylesheets/style4.css" />
         <option value="$PROJECT_DIR$/app_website/public/stylesheets/style5.css" />
         <option value="$PROJECT_DIR$/app_website/public/stylesheets/style6.css" />
         <option value="$PROJECT_DIR$/app_website/views/layout5.jade" />
@@ -129,6 +133,8 @@
         <option value="$PROJECT_DIR$/app_website/app2.js" />
         <option value="$PROJECT_DIR$/app_website/server.js" />
         <option value="$PROJECT_DIR$/app_website/app.js" />
+        <option value="$PROJECT_DIR$/app_website/views/layout4.jade" />
+        <option value="$PROJECT_DIR$/app_website/public/stylesheets/style4.css" />
       </list>
     </option>
   </component>
@@ -140,9 +146,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="596" />
+    <option name="y" value="23" />
     <option name="width" value="1778" />
-    <option name="height" value="393" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -184,6 +190,16 @@
               <option name="myItemId" value="ASSL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ASSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app_website" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -203,25 +219,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASSL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ASSL" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app_website" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,7 +321,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="596" width="1778" height="393" extended-state="0" />
+    <frame x="0" y="23" width="1778" height="966" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,14 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_website/public/stylesheets/style4.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_website/public/stylesheets/style5.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -689,6 +683,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_website/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app_website/routes/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -699,16 +701,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_website/views/layout4.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.5">
-          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+        <state vertical-scroll-proportion="-23.076923">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_website/app.js">
+    <entry file="file://$PROJECT_DIR$/app_website/public/stylesheets/style4.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12096774">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.46044865">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
           <folding />
         </state>
       </provider>

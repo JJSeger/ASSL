@@ -5,6 +5,12 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
+
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:3000/nodetest1');
+
+
 var index = require('./routes/index'); //index page route
 var artists = require('./routes/artists'); //artists page route
 var globe = require('./routes/globe'); //globe page route
@@ -15,24 +21,29 @@ var feedback = require('./routes/feedback'); //feedback page route
 var app = express();
 
 
-
-
-
-
-
-
-
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade'); //html engine
 
 // uncomment after placing your favicon in /public
-
+//app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json()); //this parses the html
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+
+
+// Make our db accessible to our router-this must be placed
+// exactly where it is or the app will not work
+app.use(function(req,res,next){
+  req.db = db;
+  next();
+});
+
 
 app.use('/', index); //home
 app.use('/artists', artists); //artists 
